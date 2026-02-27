@@ -99,8 +99,6 @@ const [msg, setMsg] = useState("");
             { name: "GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
             { name: "Bootstrap", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
             { name: "Docker", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-  { name: "Kubernetes", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
-  { name: "Jenkins", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
     { name: "AWS", img: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" },
     { name: "Linux", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
 { name: "Ubuntu", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" },
@@ -153,8 +151,23 @@ const [msg, setMsg] = useState("");
             {
               title: "Hotel Website",
               desc: "Responsive hotel website built with React.",
-              link: "https://food-lime-six.vercel.app/",
+              link: "",
             },
+            {
+  title: "PG Project",
+  desc: "A responsive PG accommodation website where users can browse rooms, view facilities, check pricing, and contact owners. Built with React for smooth UI and modern user experience.",
+  link: "http://54.226.184.69:5000/",
+},
+{
+  title: "Fitzen project",
+  desc: "A full-stack fitness web application that provides AI-generated diet plans, trainer booking, and online package payments. Built using React, Node.js, Express, MongoDB, and Stripe integration.",
+  link: "http://13.233.230.15/",
+},
+{
+  title: "Mechanic Project",
+  desc: "A vehicle service management platform where users can add vehicles, book services, and interact with mechanics. Includes admin dashboard, authentication, and AI assistant integration using MERN stack.",
+  link: "http://13.233.111.214:5000/",
+},
           ].map((project) => (
             <div
               key={project.title}
