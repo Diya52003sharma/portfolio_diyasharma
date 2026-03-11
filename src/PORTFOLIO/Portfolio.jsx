@@ -69,7 +69,7 @@ const [msg, setMsg] = useState("");
           </p>
 
           <a
-            href="\Diya_Sharma_Resume_web developer.pdf"
+            href="\diya_resume.pdf"
             download
             target="_blank"
             className="inline-block mt-6 px-8 py-3 rounded-xl
@@ -103,6 +103,7 @@ const [msg, setMsg] = useState("");
     { name: "Linux", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
 { name: "Ubuntu", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" },
 { name: "Node.js", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+ { name: "Next.js", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
 
 { name: "Express.js", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
 
@@ -146,28 +147,29 @@ const [msg, setMsg] = useState("");
             {
               title: "Engineering Hub",
               desc: "Student resource platform with notes and videos.",
-              link: "https://engghub.onrender.com/",
+              link: "http://65.0.74.233:5000/",
             },
-            {
-              title: "Hotel Website",
-              desc: "Responsive hotel website built with React.",
-              link: "",
+            
+                    {
+          title: "PG Project",
+          desc: "A responsive PG accommodation website where users can browse rooms, view facilities, check pricing, and contact owners. Built with React for smooth UI and modern user experience.",
+          link: "http://3.109.143.162:5000/",
+        },
+        {
+          title: "Fitzen project",
+          desc: "A full-stack fitness web application that provides AI-generated diet plans, trainer booking, and online package payments. Built using React, Node.js, Express, MongoDB, and Stripe integration.",
+          link: "http://13.233.230.15/",
+        },
+        {
+          title: "Mechanic Project",
+          desc: "A vehicle service management platform where users can add vehicles, book services, and interact with mechanics. Includes admin dashboard, authentication, and AI assistant integration using MERN stack.",
+          link: "http://13.233.111.214:5000/",
+        },
+        {
+              title: "Calculator",
+              desc: "Basic CALCULATOR built with simple Logic.",
+              link: "https://calc-psi-three.vercel.app/",
             },
-            {
-  title: "PG Project",
-  desc: "A responsive PG accommodation website where users can browse rooms, view facilities, check pricing, and contact owners. Built with React for smooth UI and modern user experience.",
-  link: "http://54.226.184.69:5000/",
-},
-{
-  title: "Fitzen project",
-  desc: "A full-stack fitness web application that provides AI-generated diet plans, trainer booking, and online package payments. Built using React, Node.js, Express, MongoDB, and Stripe integration.",
-  link: "http://13.233.230.15/",
-},
-{
-  title: "Mechanic Project",
-  desc: "A vehicle service management platform where users can add vehicles, book services, and interact with mechanics. Includes admin dashboard, authentication, and AI assistant integration using MERN stack.",
-  link: "http://13.233.111.214:5000/",
-},
           ].map((project) => (
             <div
               key={project.title}
